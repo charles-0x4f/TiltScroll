@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/backButton"
+        android:icon="@drawable/back"
+        android:title="Back"
+        android:showAsAction="always" />
+    
+    <item android:id="@+id/forwardButton"
+        android:icon="@drawable/forward"
+        android:title="Forward"
+        android:showAsAction="always" />
+    
+    <item android:id="@+id/searchview"
+        android:title="Enter URL"
+        android:showAsAction="always|withText"
+        android:actionViewClass="android.widget.SearchView" />
+    
+    <item android:id="@+id/calibrate"
+        android:title="Calibrate"
+        android:showAsAction="always" />
+        
+</menu>
